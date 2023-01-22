@@ -24,3 +24,7 @@ lint:
 # Запуск игры на чётность
 even:
 	poetry run brain-even
+
+#Запуск игры калькулятор
+calc:
+	poetry run brain-calc

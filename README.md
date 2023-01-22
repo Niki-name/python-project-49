@@ -4,3 +4,5 @@
 <a href="https://codeclimate.com/github/Niki-name/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/72b95b373375ef2ff44b/maintainability" /></a>
 #Сслыка на игру на чётность
 https://asciinema.org/a/553379
+#Ссылка на игру калькулятор
+https://asciinema.org/a/553428
