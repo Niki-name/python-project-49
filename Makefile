@@ -2,7 +2,7 @@
 install: 
 	poetry install
 
-#запуск игры
+#запуск приветствия
 brain-games:
 	poetry run brain-games
 
@@ -20,3 +20,7 @@ package-install:
 #Проверка на ошибки
 lint:
 	poetry run flake8 brain_games
+
+# Запуск игры на чётность
+even:
+	poetry run brain-even
