@@ -6,3 +6,5 @@
 https://asciinema.org/a/553379
 #Ссылка на игру калькулятор
 https://asciinema.org/a/553428
+#Ссылка на игру НОД
+https://asciinema.org/a/553504

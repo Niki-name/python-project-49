@@ -28,3 +28,6 @@ even:
 #Запуск игры калькулятор
 calc:
 	poetry run brain-calc
+#Запуск игры НОД
+gcd:
+	poetry run brain-gcd

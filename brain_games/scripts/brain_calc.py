@@ -2,8 +2,8 @@
 from brain_games.hello_name import welcome
 import random
 
-def main():
 
+def main():
     name = welcome()
     round = 0
     value = 0
@@ -11,7 +11,7 @@ def main():
     while round != 3:
         number_1 = random.randint(0, 5)
         number_2 = random.randint(0, 5)
-        math_operation = random.choice(['+','*','-'])
+        math_operation = random.choice(['+', '*', '-'])
         Question = str(number_1) + ' ' + math_operation + ' ' + str(number_2)
         if math_operation == "+":
             value = number_1 + number_2
@@ -21,7 +21,7 @@ def main():
             value = number_1 * number_2
         print(f"Question: {Question}")
         answer = int(input('Your answer: '))
-        if answer == value :
+        if answer == value:
             print("Correct")
         else:
             print(f"'{answer}' is wrong ;(. Correct answer was '{value}'")
@@ -30,6 +30,7 @@ def main():
         round += 1
         if round == 3:
             print(f"Congratulations,{name}! ")
+
 
 if __name__ == '__main__':
     main()
