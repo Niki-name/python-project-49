@@ -8,3 +8,5 @@ https://asciinema.org/a/553379
 https://asciinema.org/a/553428
 #Ссылка на игру НОД
 https://asciinema.org/a/553504
+#Ссылка на игру прогрессия
+https://asciinema.org/a/553686
