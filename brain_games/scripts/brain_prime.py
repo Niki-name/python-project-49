@@ -24,7 +24,7 @@ def main():
         if answer == True_answer:
             print('Corret!')
         else:
-            print(f"Let's try again, {name}")
+            print(f"Let's try again, {name}!")
             break
         round += 1
         if round == 3:
