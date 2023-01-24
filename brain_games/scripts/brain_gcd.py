@@ -12,7 +12,7 @@ def main():
         number_1 = random.randint(0, 100)
         number_2 = random.randint(0, 100)
         Question = math.gcd(number_1, number_2)
-        print(f"Question: {number_1}, {number_2}")
+        print(f"Question: {number_1} {number_2}")
         answer = int(input('Your answer: '))
         if answer == Question:
             print("Correct")
