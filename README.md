@@ -10,3 +10,5 @@ https://asciinema.org/a/553428
 https://asciinema.org/a/553504
 #Ссылка на игру прогрессия
 https://asciinema.org/a/553686
+#Сслыка на игру по простому числу
+https://asciinema.org/a/553823

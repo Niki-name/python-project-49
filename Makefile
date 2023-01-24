@@ -36,3 +36,7 @@ gcd:
 #Запуск игры на прогрессию
 progression:
 	poetry run brain-progression
+
+#Запуск игры на простое число
+prime:
+	poetry run brain-prime
