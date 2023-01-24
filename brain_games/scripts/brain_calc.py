@@ -29,7 +29,7 @@ def main():
             break
         round += 1
         if round == 3:
-            print(f"Congratulations,{name}! ")
+            print(f"Congratulations, {name}! ")
 
 
 if __name__ == '__main__':
