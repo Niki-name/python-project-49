@@ -8,14 +8,14 @@ def main():
     round = 0
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     while round != 3:
-        number = random.randint(3,100)
+        number = random.randint(3, 100)
         divider = []  # для цикла
         print(f"Question: {number}")
-        for i in range(3,number):       # Перебор делителей
-            if (number % i) == 0:           # Если делиться хоть 1 делитель на 0, список пуст(число сложное)
+        for i in range(3, number):       # Перебор делителей
+            if (number % i) == 0:           # (число сложное)
                 break
         else:
-            divider.append(number)           # иначе список заполнится (число простое)
+            divider.append(number)           # (число простое)
         if divider == []:
             True_answer = 'no'
         else:
