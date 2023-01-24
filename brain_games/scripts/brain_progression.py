@@ -24,7 +24,7 @@ def main():
             print("Correct!")
         else:
             print(f"'{answer}' is wrong ;(. Correct answer was '{element}'")
-            print(f"Let's try again {name}")
+            print(f"Let's try again, {name}")
             break
         round += 1
         if round == 3:

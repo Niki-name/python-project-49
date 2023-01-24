@@ -19,7 +19,7 @@ def main():
             print("Correct")
 
         else:
-            print(f"Let's try again {name}")
+            print(f"Let's try again, {name}")
             break
         round += 1
         if round == 3:
