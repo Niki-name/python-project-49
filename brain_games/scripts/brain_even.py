@@ -10,7 +10,7 @@ def main():
     print('Answer "yes" if the number is even, otherwise answer "no".')
     while round != 3:
         number = random.randint(0, 4)
-        print(f"Question:{number}")
+        print(f"Question: {number}")
         answer = (input('Your answer: '))
         if number % 2 == 0 and answer == "yes":
             print("Correct")
