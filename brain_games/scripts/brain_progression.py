@@ -18,7 +18,8 @@ def main():
             for index, value in enumerate(Question):
                 if value == element:
                     Question[index] = '..'   # замена рандомного элемента на ..
-        print(f"Question: {Question}")              # Вопрос
+        for_print = " ".join(map(str, Question))
+        print(f"Question: {for_print}")              # Вопрос
         answer = int(input('Your answer: '))
         if answer == element:
             print("Correct!")
