@@ -11,7 +11,7 @@ def main():
         number = random.randint(3, 100)
         divider = []  # для цикла
         print(f"Question: {number}")
-        for i in range(3, number):       # Перебор делителей
+        for i in range(2, number):       # Перебор делителей
             if (number % i) == 0:           # (число сложное)
                 break
         else:
