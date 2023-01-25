@@ -16,3 +16,20 @@ def game_progression():
     print(f"Question: {for_print}")              # Вопрос
     answer = int(input('Your answer: '))
     return answer, element
+
+
+def game_prime():
+    number = random.randint(3, 100)
+    divider = []  # для цикла
+    print(f"Question: {number}")
+    for i in range(2, number):  # Перебор делителей
+        if (number % i) == 0:   # (число сложное)
+            break
+    else:
+        divider.append(number)  # (число простое)
+    if divider == []:
+        True_answer = 'no'
+    else:
+        True_answer = 'yes'
+    answer = input('Your answer: ')
+    return answer, True_answer
