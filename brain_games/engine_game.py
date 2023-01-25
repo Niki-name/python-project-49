@@ -33,3 +33,17 @@ def game_prime():
         True_answer = 'yes'
     answer = input('Your answer: ')
     return answer, True_answer
+
+def first_game():
+
+    from brain_games.hello_name import welcome
+
+    name = welcome()
+    print('Answer "yes" if the number is even, otherwise answer "no".')
+
+    from brain_games.mymodule import game_even
+
+    if game_even() == '':
+        print(f"Congratulations, {name}! ")
+    else:
+        print(f"Let's try again, {name}!")
