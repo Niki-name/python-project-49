@@ -1,5 +1,6 @@
 import random
 
+
 def game_even():
     winner = ''
     round = 0
@@ -10,7 +11,7 @@ def game_even():
         if number % 2 == 0 and answer == "yes":
             print("Correct")
         elif number % 2 != 0 and answer == "no":
-           print("Correct")
+            print("Correct")
         else:
             break
         round += 1

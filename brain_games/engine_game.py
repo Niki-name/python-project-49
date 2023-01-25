@@ -34,6 +34,7 @@ def game_prime():
     answer = input('Your answer: ')
     return answer, True_answer
 
+
 def first_game():
 
     from brain_games.hello_name import welcome
