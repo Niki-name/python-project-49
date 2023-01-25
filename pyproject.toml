@@ -2,6 +2,7 @@
 name = "hexlet-code"
 version = "0.1.0"
 description = "package with 5 game"
+classifiers = ["Programming Language :: Python :: 3"]
 authors = ["Nikita Kulikov <brazefly@gmail.com>"]
 readme = "README.md"
 repository = "https://github.com/Niki-name/python-project-49"
