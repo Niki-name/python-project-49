@@ -1,5 +1,5 @@
 #Устанавливает зависимости
-install: 
+install:
 	poetry install
 
 #запуск приветствия
@@ -14,6 +14,7 @@ build:
 publish:
 	poetry publish --dry-run
 
+#Установка игры
 package-install:
 	python3 -m pip install --user dist/*.whl
 
@@ -40,3 +41,7 @@ progression:
 #Запуск игры на простое число
 prime:
 	poetry run brain-prime
+
+#Переустановка игры(при обновлении)
+reinstall:
+	python3 -m pip install --force-reinstall --user dist/hexlet_code-0.1.0-py3-none-any.whl
